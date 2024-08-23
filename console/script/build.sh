@@ -14,9 +14,9 @@ function compile() {
 function make_output() {
   (
     compile &&
-      rm -rf dist &&
-      mkdir -p dist &&
-      cp ./main dist
+      rm -rf dist-server &&
+      mkdir -p dist-server &&
+      cp ./main dist-server
       rm -rf ./main
   ) || {
     echo "[make output error]"

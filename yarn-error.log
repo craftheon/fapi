@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add --dev @types/vite
+
+PATH: 
+  /Users/weiyuang/.bun/bin:/Users/weiyuang/.bun/bin:/Applications/ServBay/bin:/Applications/ServBay/sbin:/Applications/ServBay/script:/Users/weiyuang/.fly/bin:/Users/weiyuang/.cargo/bin:/Users/weiyuang/.wasmtime/bin:/Users/weiyuang/.wasmer/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:/Users/weiyuang/.bun/bin:/Users/weiyuang/Library/pnpm:/Applications/ServBay/bin:/Applications/ServBay/sbin:/Applications/ServBay/script:/Users/weiyuang/.fly/bin:/Users/weiyuang/.cargo/bin:/Users/weiyuang/.wasmtime/bin:/Users/weiyuang/.wasmer/bin:/Users/weiyuang/miniconda3/bin:/Users/weiyuang/miniconda3/condabin:/Users/weiyuang/Library/Android/sdk/emulator:/Users/weiyuang/Library/Android/sdk/tools:/Users/weiyuang/Library/Android/sdk/tools/bin:/Users/weiyuang/Library/Android/sdk/platform-tools:/usr/local/go/bin:/Users/weiyuang/Library/Android/sdk/emulator:/Users/weiyuang/Library/Android/sdk/tools:/Users/weiyuang/Library/Android/sdk/tools/bin:/Users/weiyuang/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  20.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@types%2fvite: Not found
+      at params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66140:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140885:22)
+      at Request.emit (node:events:519:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141857:10)
+      at Request.emit (node:events:519:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:633:28)
+      at IncomingMessage.emit (node:events:531:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
