@@ -1,5 +1,5 @@
-# piececode
+# fapi
 
 A tiny faas engine based on webassembly and v8.
 
-piececode.render.io
+https://fapi.craftheon.dev
