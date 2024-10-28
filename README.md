@@ -1,5 +1,5 @@
-# fapi
+# hono-react-mvc-boilerplate
 
-A tiny faas engine based on webassembly and v8.
+Simple template code for Hono.js + React MVC, running on Cloudflare Pages.
 
-https://fapi.craftheon.dev
+https://hono-react.craftheon.dev
