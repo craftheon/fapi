@@ -1,0 +1,27 @@
+{
+  "name": "hono-react-mvc-boilerplate",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simple template code for Hono.js + React MVC, running on Cloudflare Pages.",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "dependencies": {
+    "hono": "^4.6.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "@hono/vite-build": "^1.0.0",
+    "@hono/vite-dev-server": "^0.15.1",
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "vite": "^5.2.12",
+    "wrangler": "^3.57.2"
+  },
+  "author": "Yuang Wei<yuang.wya@gmail.com>",
+  "license": "MIT"
+}
